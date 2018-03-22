@@ -8,7 +8,7 @@
 #include <algorithm>
 #include <time.h>
 
-#define MAX_BUFF_SIZE 255
+#define MAX_BUFF_SIZE 256
 
 std::vector<int> numberHolder;
 
