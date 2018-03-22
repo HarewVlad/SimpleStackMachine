@@ -63,11 +63,6 @@ std::string parseFile(const char *dataPath)
 	}
 }
 
-void makeComputation(const std::string operation)
-{
-	
-}
-
 void processCode(const std::string bufferCode)
 {
 	std::vector<std::string> tokens = getTokens(bufferCode, ";");
@@ -163,5 +158,3 @@ int main()
 	system("pause");
 	return 0;
 }
-
-
